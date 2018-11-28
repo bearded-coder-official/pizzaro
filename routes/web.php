@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('layout');
-});
+    return view('pages.index');
+})->name('home');
+
+Route::get('/food', function () {
+    return view('pages/shop-grid-3-column');
+})->name('food');
+
