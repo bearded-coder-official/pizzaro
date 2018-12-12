@@ -60,7 +60,7 @@ Route::match(['delete'], '/admin/products-delete', function (\Illuminate\Http\Re
 //    });
 //});
 
-Route::get('/feature', function (){
+Route::get('/hotfix', function (){
     dd('some feature');
 });
 
